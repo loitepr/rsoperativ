@@ -1,10 +1,3 @@
-//
-//  RS_OperativApp.swift
-//  RS Operativ
-//
-//  Created by Preben Løite on 19/12/2023.
-//
-
 import SwiftUI
 
 @main

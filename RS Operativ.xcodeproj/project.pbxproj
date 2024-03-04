@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F7925CF2B935D29003937ED /* Struct BarentsWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7925CE2B935D29003937ED /* Struct BarentsWatch.swift */; };
+		2F7925D52B94DB06003937ED /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7925D42B94DB06003937ED /* SwiftUIView.swift */; };
+		2F7925D72B95FD8A003937ED /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7925D62B95FD8A003937ED /* PopoverView.swift */; };
+		2F80E4382B84B99B0075DDD8 /* Struct Vessel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80E4372B84B99B0075DDD8 /* Struct Vessel.swift */; };
 		2FE6CD9A2B3255EE00799026 /* RS_OperativApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CD992B3255EE00799026 /* RS_OperativApp.swift */; };
 		2FE6CD9C2B3255EE00799026 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CD9B2B3255EE00799026 /* ContentView.swift */; };
 		2FE6CD9E2B3255EF00799026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6CD9D2B3255EF00799026 /* Assets.xcassets */; };
 		2FE6CDA12B3255EF00799026 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6CDA02B3255EF00799026 /* Preview Assets.xcassets */; };
 		2FE6CDA32B3255EF00799026 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDA22B3255EF00799026 /* Persistence.swift */; };
 		2FE6CDA62B3255EF00799026 /* RS_Operativ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDA42B3255EF00799026 /* RS_Operativ.xcdatamodeld */; };
+		2FE6CDAD2B32563D00799026 /* Struct Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDAC2B32563D00799026 /* Struct Location.swift */; };
+		2FE6CDAF2B32566400799026 /* Struct Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDAE2B32566400799026 /* Struct Ocean.swift */; };
+		2FE6CDB12B32567600799026 /* Struct RS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDB02B32567600799026 /* Struct RS.swift */; };
+		2FE6CDB32B32568500799026 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDB22B32568500799026 /* Extentions.swift */; };
+		2FE6CDB52B3256C300799026 /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDB42B3256C300799026 /* UserDefaultsUtils.swift */; };
+		2FE6CDB72B3256D200799026 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE6CDB62B3256D200799026 /* Constants.swift */; };
+		2FEB90FE2B6BE4A700EF961C /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 2FEB90FD2B6BE4A700EF961C /* XMLCoder */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F7925CE2B935D29003937ED /* Struct BarentsWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct BarentsWatch.swift"; sourceTree = "<group>"; };
+		2F7925D42B94DB06003937ED /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		2F7925D62B95FD8A003937ED /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		2F80E4372B84B99B0075DDD8 /* Struct Vessel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct Vessel.swift"; sourceTree = "<group>"; };
 		2FE6CD962B3255EE00799026 /* RS Operativ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RS Operativ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE6CD992B3255EE00799026 /* RS_OperativApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RS_OperativApp.swift; sourceTree = "<group>"; };
 		2FE6CD9B2B3255EE00799026 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +38,12 @@
 		2FE6CDA02B3255EF00799026 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2FE6CDA22B3255EF00799026 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2FE6CDA52B3255EF00799026 /* RS_Operativ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RS_Operativ.xcdatamodel; sourceTree = "<group>"; };
+		2FE6CDAC2B32563D00799026 /* Struct Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct Location.swift"; sourceTree = "<group>"; };
+		2FE6CDAE2B32566400799026 /* Struct Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct Ocean.swift"; sourceTree = "<group>"; };
+		2FE6CDB02B32567600799026 /* Struct RS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct RS.swift"; sourceTree = "<group>"; };
+		2FE6CDB22B32568500799026 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		2FE6CDB42B3256C300799026 /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
+		2FE6CDB62B3256D200799026 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FEB90FE2B6BE4A700EF961C /* XMLCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +61,7 @@
 		2FE6CD8D2B3255EE00799026 = {
 			isa = PBXGroup;
 			children = (
+				2F7925D42B94DB06003937ED /* SwiftUIView.swift */,
 				2FE6CD982B3255EE00799026 /* RS Operativ */,
 				2FE6CD972B3255EE00799026 /* Products */,
 			);
@@ -55,12 +78,20 @@
 		2FE6CD982B3255EE00799026 /* RS Operativ */ = {
 			isa = PBXGroup;
 			children = (
-				2FE6CD992B3255EE00799026 /* RS_OperativApp.swift */,
 				2FE6CD9B2B3255EE00799026 /* ContentView.swift */,
+				2FE6CDAC2B32563D00799026 /* Struct Location.swift */,
+				2FE6CDAE2B32566400799026 /* Struct Ocean.swift */,
+				2F80E4372B84B99B0075DDD8 /* Struct Vessel.swift */,
+				2F7925CE2B935D29003937ED /* Struct BarentsWatch.swift */,
+				2FE6CDB02B32567600799026 /* Struct RS.swift */,
+				2FE6CDB22B32568500799026 /* Extentions.swift */,
+				2F7925D62B95FD8A003937ED /* PopoverView.swift */,
 				2FE6CD9D2B3255EF00799026 /* Assets.xcassets */,
+				2FE6CD992B3255EE00799026 /* RS_OperativApp.swift */,
 				2FE6CDA22B3255EF00799026 /* Persistence.swift */,
-				2FE6CDA42B3255EF00799026 /* RS_Operativ.xcdatamodeld */,
 				2FE6CD9F2B3255EF00799026 /* Preview Content */,
+				2FE6CDB42B3256C300799026 /* UserDefaultsUtils.swift */,
+				2FE6CDB62B3256D200799026 /* Constants.swift */,
 			);
 			path = "RS Operativ";
 			sourceTree = "<group>";
@@ -68,6 +99,7 @@
 		2FE6CD9F2B3255EF00799026 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				2FE6CDA42B3255EF00799026 /* RS_Operativ.xcdatamodeld */,
 				2FE6CDA02B3255EF00799026 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -89,6 +121,9 @@
 			dependencies = (
 			);
 			name = "RS Operativ";
+			packageProductDependencies = (
+				2FEB90FD2B6BE4A700EF961C /* XMLCoder */,
+			);
 			productName = "RS Operativ";
 			productReference = 2FE6CD962B3255EE00799026 /* RS Operativ.app */;
 			productType = "com.apple.product-type.application";
@@ -109,7 +144,7 @@
 				};
 			};
 			buildConfigurationList = 2FE6CD912B3255EE00799026 /* Build configuration list for PBXProject "RS Operativ" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -117,6 +152,9 @@
 				Base,
 			);
 			mainGroup = 2FE6CD8D2B3255EE00799026;
+			packageReferences = (
+				2FEB90FC2B6BE4A700EF961C /* XCRemoteSwiftPackageReference "XMLCoder" */,
+			);
 			productRefGroup = 2FE6CD972B3255EE00799026 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,10 +181,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7925D72B95FD8A003937ED /* PopoverView.swift in Sources */,
+				2F7925D52B94DB06003937ED /* SwiftUIView.swift in Sources */,
+				2FE6CDAF2B32566400799026 /* Struct Ocean.swift in Sources */,
 				2FE6CDA32B3255EF00799026 /* Persistence.swift in Sources */,
+				2F7925CF2B935D29003937ED /* Struct BarentsWatch.swift in Sources */,
 				2FE6CD9C2B3255EE00799026 /* ContentView.swift in Sources */,
 				2FE6CDA62B3255EF00799026 /* RS_Operativ.xcdatamodeld in Sources */,
+				2F80E4382B84B99B0075DDD8 /* Struct Vessel.swift in Sources */,
+				2FE6CDB32B32568500799026 /* Extentions.swift in Sources */,
+				2FE6CDB72B3256D200799026 /* Constants.swift in Sources */,
+				2FE6CDB52B3256C300799026 /* UserDefaultsUtils.swift in Sources */,
+				2FE6CDAD2B32563D00799026 /* Struct Location.swift in Sources */,
 				2FE6CD9A2B3255EE00799026 /* RS_OperativApp.swift in Sources */,
+				2FE6CDB12B32567600799026 /* Struct RS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +336,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "preben.RS-Operativ";
+				MARKETING_VERSION = 1.3.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "Preben.RS-Operativ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,12 +366,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "preben.RS-Operativ";
+				MARKETING_VERSION = 1.3.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "Preben.RS-Operativ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,6 +402,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2FEB90FC2B6BE4A700EF961C /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FEB90FD2B6BE4A700EF961C /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FEB90FC2B6BE4A700EF961C /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2FE6CDA42B3255EF00799026 /* RS_Operativ.xcdatamodeld */ = {
